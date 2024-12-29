@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="main_page">Frontend Разработка</h1>
+        <nav>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="/index.html">Главная страница</a></li>
+                <li><a href="/index.html#intro">Введение</a></li>
+                <li><a href="/index.html#tools">Инструменты</a></li>
+                <li><a href="/index.html#languages">Языки</a></li>
+                <li><a href="/second_page.html">Перейти на 2ю страницу</a></li>
+                <li><a href="#">Оставить комментарий</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Оставить комментарий</h2>
+            <p>Для того, чтобы оставить комментарий, заполните поля ниже:</p>
+            <form action="" method="get">
+                <label for="username">Имя</label><br>
+                <input
+                    type="text"
+                    name="user_name"
+                    placeholder="Введите имя"
+                    id="username"/><hr style="border-width: 0;">
+                <label for="user_surname">Фамилия</label><br>
+                <input
+                    type="text"
+                    name="user_surname"
+                    placeholder="Введите фамилию"
+                    id="usersurname"><hr style="border-width: 0;">
+                <label for="email">Адрес электронной почты</label><br>
+                <input
+                    type="email"
+                    name="user_email"
+                    placeholder="Введите адрес электронной почты"
+                    id="email"><hr style="border-width: 0;">
+                <label for="date_of_birth">Дата рождения</label><br>
+                <input
+                    type="date"
+                    name="user_date_of_birth"
+                    id="date_of_birth"><hr style="border-width: 0;">
+                <label for="years_of_experience">Количество лет в разработке</label><br>
+                <input
+                    type="number"
+                    name="user_years_of_experience"
+                    placeholder="Введите количество лет"
+                    id="years_of_experience"><hr style="border-width: 0;">
+                <label for="comment">Введите комментарий</label><br>
+                <textarea cols="50" rows="10" id="comment" name="comment"></textarea><br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>Разделы</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="/index.html">Frontend разработка</a></li>
+                    <li><a href="/second_page.html">История профессии фронтенд-разработчика</a></li>
+                    <li><a href="#">Оставить комментарий</a></li>
+                </ul>
+        </section>
+        <section>
+            <h3>Контакты</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="mailto:mail@gmail.com">Написать нам</a></li>
+                    <li><a href="tel:=79111111111">Позвонить нам</a></li>
+                </ul>
+        </section>
+    </footer>
+</body>
+</html>
